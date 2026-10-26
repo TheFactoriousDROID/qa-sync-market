@@ -1,0 +1,8 @@
+{
+  "name": "qa-sync-market",
+  "owner": { "name": "QA fixtures" },
+  "plugins": [
+    { "name": "ext-gh", "description": "QA sync fixture (github source)", "source": { "source": "github", "repo": "TheFactoriousDROID/qa-sync-ext" } },
+    { "name": "ext-sub", "description": "QA sync fixture (git-subdir source)", "source": { "source": "git-subdir", "url": "https://github.com/TheFactoriousDROID/qa-sync-ext.git", "path": "plugins/sub" } }
+  ]
+}
